@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>Order Form</title>
+</head>
+<body>
+
+    <form>
+        <h2>Please Fill The Boxes Below</h2>
+
+        <div>
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname">
+        </div>
+        <br>
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="ex: myname@example.com" size="30">
+        </div>
+        <br>
+
+        <div>
+            <label for="phone">Recipient Phone Number</label>
+            <input type="tel" id="phone" name="phone" size="30">
+        </div>
+        <br>
+
+        <div>
+            <label>Preference</label><br>
+            
+            <input type="checkbox" id="exchange" name="preference" value="exchange">
+            <label for="exchange">Exchange my current cylinder with a prefilled cylinder</label><br>
+            
+            <input type="checkbox" id="refill" name="preference" value="refill">
+            <label for="refill">Pick my cylinder, refill and return it to my location</label>
+        </div>
+        <br>
+
+        <div>
+            <label for="size">My Cylinder Size is</label>
+            <select id="size" name="cylinder_size">
+                <option value="" disabled selected>Select size</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <label for="quantity">Quantity Required</label>
+            <input type="number" id="quantity" name="quantity">
+        </div>
+        <br>
+
+        <div>
+            <label for="amount">AMOUNT DUE</label>
+            <input type="text" id="amount" name="amount">
+        </div>
+        <br>
+
+        <div>
+            <label for="address">Delivery Address (Please include nearest landmarks)</label><br>
+            <textarea id="address" name="address" rows="5" cols="20"></textarea>
+        </div>
+
+        <button type="submit">Place Order</button>
+
+    </form>
+
+</body>
+</html>
+</body>
+</html>
