@@ -281,5 +281,4 @@
     }
     console.log(getGreaterLength("Ahmed", "Mohammed"));
     console.log(getGreaterLength("Khalid", "Asma"));
-    
 }
