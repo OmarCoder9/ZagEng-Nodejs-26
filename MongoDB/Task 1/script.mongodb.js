@@ -9,7 +9,7 @@ db.users.insertMany([
 
 db.books.insertMany([
     {_id:1, title:"Elden Rings", pageCount:160},
-    {_id:2, title:"Harry Potter and the Chambre of Secrets", pageCount:300},
+    {_id:2, title:"Harry Potter and the Chamber of Secrets", pageCount:300},
     {_id:3, title:"Mongo Basics", pageCount:100},
     {_id:4, title:"Differential Equations", pageCount:500}
 ])
